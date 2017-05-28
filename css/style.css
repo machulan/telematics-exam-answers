@@ -1,5 +1,19 @@
+body>div {
+    width: 100%;
+    min-width: 960px;
+}
+
 .part {
-    background: #fff;
+    width: 960px;
+    height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+
+.part {
+    /*background: #fff;*/
+    background: #feffff;
     font-family: Verdana;
     font-size: 14pt;
 }
@@ -7,10 +21,12 @@
 .part .part-name {
     background: #8f8;
     font-size: 20pt;
-    line-height: 50pt;
-    padding-left: 20pt;
+    /*line-height: 50pt;*/
+    line-height: 35pt;
     color: black;
     font-weight: 700;
+    padding: 10pt;
+    padding-left: 20pt;
 }
 
 .item {
@@ -19,18 +35,36 @@
 
 .item-question {
     background: #bfb;
+    /*background: #0af;*/
+    /*color: white;*/
     padding: 5pt;
     /*font-weight: bold;*/
     font-size: 16pt;
 }
 
 .item-answer {
-
+    /*background: #bfb;*/
+    padding: 5pt;
+    line-height: 25pt;
+    /*font-weight: bold;*/
+    /*font-size: 16pt;*/
 }
+
+/*span + p {
+    display: inline;
+}*/
 
 span {
     display: inline;
 }
+
+.todo {
+    background: yellow;
+    color: blue;
+    font-weight: bold;
+    /*display: none;*/
+}
+
 
 /*
  background: #dfd;
