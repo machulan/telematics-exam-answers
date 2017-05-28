@@ -6,7 +6,7 @@ body>div {
 .part {
     width: 960px;
     height: auto;
-    overflow: hidden;
+    /*overflow: hidden;*/
     box-sizing: border-box;
     margin: 0px auto;
 }
