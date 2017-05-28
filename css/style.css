@@ -64,7 +64,7 @@ span {
     color: white;
 }
 
-.todo {
+.status {
     background: yellow;
     color: blue;
     font-weight: bold;
