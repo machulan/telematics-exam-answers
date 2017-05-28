@@ -50,12 +50,18 @@ body>div {
     /*font-size: 16pt;*/
 }
 
+
 /*span + p {
     display: inline;
 }*/
 
 span {
     display: inline;
+}
+
+.label {
+    background: red;
+    color: white;
 }
 
 .todo {
