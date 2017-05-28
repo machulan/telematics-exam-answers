@@ -1,0 +1,37 @@
+.part {
+    background: #fff;
+    font-family: Verdana;
+    font-size: 14pt;
+}
+
+.part .part-name {
+    background: #8f8;
+    font-size: 20pt;
+    line-height: 50pt;
+    padding-left: 20pt;
+    color: black;
+    font-weight: 700;
+}
+
+.item {
+    padding: 5pt;
+}
+
+.item-question {
+    background: #bfb;
+    padding: 5pt;
+    /*font-weight: bold;*/
+    font-size: 16pt;
+}
+
+.item-answer {
+
+}
+
+span {
+    display: inline;
+}
+
+/*
+ background: #dfd;
+*/
