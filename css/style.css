@@ -57,6 +57,7 @@ body>div {
 
 span {
     display: inline;
+    /*display: none;*/
 }
 
 .label {
