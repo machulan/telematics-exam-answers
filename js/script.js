@@ -29,7 +29,7 @@ var parts = document.body.getElementsByClassName("part");
 var curPerson = 0;
 var curQuestionNumber = 0;
 
-for(var i = 0; i < parts.length; i++){
+for(var i = 0; false && i < parts.length; i++){
     var part = parts[i];
     //var ol = part.childNodes[1];
     var ol = part.getElementsByTagName("ol")[0];
